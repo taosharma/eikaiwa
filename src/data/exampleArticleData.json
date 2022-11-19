@@ -1,0 +1,27 @@
+{
+  "id": "",
+  "titles": {
+    "english": "",
+    "japanese": ""
+  },
+  "cover_image": {
+    "link": "",
+    "alt": ""
+  },
+  "thumbnail_image": {
+    "link": "",
+    "alt": ""
+  },
+  "description": "",
+  "summary": "",
+  "date": "",
+  "tags": [""],
+  "level": "",
+  "categories": [{ "category": "", "is_featured": true }],
+  "audio_link": "",
+  "article": "", // Research limits of markdown string.
+  "vocab": {
+    "english": [""],
+    "japanese": [""]
+  }
+}
