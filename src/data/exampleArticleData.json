@@ -4,21 +4,21 @@
     "english": "",
     "japanese": ""
   },
-  "cover_image": {
+  "date": "",
+  "coverImage": {
     "link": "",
     "alt": ""
   },
-  "thumbnail_image": {
+  "thumbnailImage": {
     "link": "",
     "alt": ""
   },
   "description": "",
   "summary": "",
-  "date": "",
   "tags": [""],
   "level": "",
-  "categories": [{ "category": "", "is_featured": true }],
-  "audio_link": "",
+  "categories": [{ "category": "", "isFeatured": true }],
+  "audioLink": "",
   "article": "", // Research limits of markdown string.
   "vocab": {
     "english": [""],
