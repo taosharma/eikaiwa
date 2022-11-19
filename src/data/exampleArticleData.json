@@ -15,13 +15,14 @@
   },
   "description": "",
   "summary": "",
+  "article": "",
   "tags": [""],
   "level": "",
   "categories": [{ "category": "", "isFeatured": true }],
   "audioLink": "",
-  "article": "", // Research limits of markdown string.
   "vocab": {
     "english": [""],
     "japanese": [""]
-  }
+  },
+  "comments": [{}]
 }
