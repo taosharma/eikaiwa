@@ -1,0 +1,13 @@
+.small {
+  width: 15vw;
+  height: 15vw;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-style: solid;
+}
+
+.img {
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+}
