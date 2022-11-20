@@ -1,0 +1,5 @@
+.textbox {
+  max-width: 75vw;
+  overflow-wrap: break-word;
+  border: 3px solid yellow;
+}

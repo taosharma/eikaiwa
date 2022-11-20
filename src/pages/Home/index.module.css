@@ -1,0 +1,10 @@
+.welcomeBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row-reverse;
+}
