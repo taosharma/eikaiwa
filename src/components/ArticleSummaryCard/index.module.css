@@ -1,0 +1,50 @@
+.articleSummaryCard {
+  width: 65vw;
+  height: 15vw;
+  margin: 0.2rem;
+  padding: 1rem;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.summaryContainer {
+  width: 45vw;
+  height: 15vw;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-style: solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.englishTitle {
+  width: 20vw;
+  margin: 0rem;
+  text-align: left;
+}
+
+.date {
+  width: 20vw;
+  margin: 0rem;
+  text-align: right;
+}
+
+.japaneseTitle {
+  width: 45vw;
+  margin: 0rem;
+  text-align: left;
+}
+
+.summaryText {
+  width: 40vw;
+  margin: 0rem;
+  text-align: left;
+}
+
+.tagContainer {
+  width: 40vw;
+  margin: 0rem;
+  display: flex;
+}

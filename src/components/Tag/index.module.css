@@ -1,0 +1,14 @@
+.small {
+  height: 2.5vw;
+  border-style: solid;
+  margin: 0.5rem;
+}
+
+.red {
+  background-color: red;
+}
+
+.tagText {
+  font-size: small;
+  margin: 0rem;
+}
