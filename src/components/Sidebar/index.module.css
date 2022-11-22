@@ -1,0 +1,8 @@
+.sidebarBox {
+  /* display: flex;
+  flex-direction: column; */
+  width: 25vw;
+  border: 3px solid mediumpurple;
+  height: calc(100vh);
+  z-index: 1;
+}
