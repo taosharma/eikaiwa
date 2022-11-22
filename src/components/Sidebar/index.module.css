@@ -1,8 +1,6 @@
-.sidebarBox {
-  /* display: flex;
-  flex-direction: column; */
-  width: 25vw;
-  border: 3px solid mediumpurple;
-  height: calc(100vh);
-  z-index: 1;
+.sidebarContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
 }

@@ -1,10 +1,24 @@
-.welcomeBox {
+.mainContainer {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
 }
 
 .contentContainer {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  align-items: center;
+  width: 75vw;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-style: solid;
+}
+
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-style: solid;
 }

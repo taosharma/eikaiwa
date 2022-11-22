@@ -10,21 +10,16 @@ export default function Home() {
   return (
     <>
       <HomeBannerImage />
-      <div className={styles.contentContainer}>
-        <Sidebar caption={'Eikaiwa cafe'} />
-        <div className={styles.welcomeBox}>
+      <main className={styles.mainContainer}>
+        <section className={styles.contentContainer}>
           <Title titleText={'Welcome'} />
-          <DescriptionText
-            textArray={[
-              'Eikaiwa afternoon teaへようこそ！',
-              '二人のイギリス人が作っていっる英語を勉強する人向けのサイトです。',
-              '私達の理想像では、読者のみなさまがアフタヌーンティーを馳走しながら、英語も楽しむことです。心地よくて、マイペースで勉強しましょう！',
-              'だって、英語ができれば、世界のみんなと会話ができます！',
-            ]}
-          />
-        </div>
-        <ArticleSummaryCard />
-      </div>
+          <DescriptionText />
+          <ArticleSummaryCard />
+        </section>
+        <section className={styles.sidebarContainer}>
+          <Sidebar />
+        </section>
+      </main>
     </>
   )
 }
