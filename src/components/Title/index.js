@@ -1,4 +1,4 @@
-import styles from "./index.module.css";
+import styles from './index.module.css'
 
 export default function Title({ titleText, textColor }) {
   return (
@@ -7,5 +7,10 @@ export default function Title({ titleText, textColor }) {
         {titleText}
       </h1>
     </>
-  );
+  )
+}
+
+Title.defaultProps = {
+  titleText: 'Some Title',
+  textColor: 'black',
 }

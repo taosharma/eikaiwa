@@ -1,8 +1,6 @@
 .articleSummaryCard {
-  width: 65vw;
-  height: 15vw;
   margin: 0.2rem;
-  padding: 1rem;
+  padding: 0.2rem;
   border-style: solid;
   display: flex;
   align-items: center;
@@ -17,6 +15,7 @@
   border-style: solid;
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .englishTitle {

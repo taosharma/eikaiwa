@@ -1,5 +1,6 @@
-.textbox {
-  max-width: 75vw;
+.descriptionContainer {
+  margin: 0.2rem;
+  padding: 0.2rem;
   overflow-wrap: break-word;
-  border: 3px solid yellow;
+  border-style: solid;
 }

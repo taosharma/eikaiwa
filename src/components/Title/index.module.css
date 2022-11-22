@@ -1,7 +1,7 @@
 .title {
   font-size: 3em;
   line-height: 2em;
-  width: 80vw;
-  margin: 0;
-  border: 3px solid yellow;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-style: solid;
 }
