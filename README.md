@@ -6,17 +6,19 @@
 ## Components
 
 - ArticleSummaryCard
-- FeaturedSummaryCard
 - SiteBannerImage
+
 - Title
 - SecondaryTitle
 - Subtitle
 - DescriptionText
-- Tag
-- SearchBar
 - Sidebar
+- ImageBox
+
 - AboutSummary
-- PhotoBox
+- Tag
+- FeaturedSummaryCard
+- SearchBar
 
 - SortFilter
 
