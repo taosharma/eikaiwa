@@ -19,7 +19,7 @@
 }
 
 .englishTitle {
-  width: 20vw;
+  width: 25vw;
   margin: 0rem;
   text-align: left;
 }
@@ -46,4 +46,6 @@
   width: 40vw;
   margin: 0rem;
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
