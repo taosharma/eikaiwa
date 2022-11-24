@@ -22,9 +22,3 @@ export default function HomeBannerImage() {
     </>
   );
 }
-
-{
-  /* <Link className={styles.link} to="/about">
-          <button className={styles.heroButton}>About Hazie</button>
-</Link>*/
-}
