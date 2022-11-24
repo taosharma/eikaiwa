@@ -30,10 +30,11 @@ export default function FeaturedSummaryCard({
 
 FeaturedSummaryCard.defaultProps = {
   image:
-    "https://www.teasenz.it/media/catalog/product/cache/8a22e548d0d598b598d00db33d60f0d4/c/a/cat-teapot-16.jpg",
-  englishTitle: "English Title",
-  date: "1 January 2022",
-  japaneseTitle: "日本語タイトル",
-  summaryText: "今日私たちは英会話を話します。",
-  tags: ["Beginner", "Culture", "Sports"],
+    "https://cdn.midjourney.com/50b1fc2e-b93a-4bdb-a72a-7c2832d3cb99/grid_0.png",
+  englishTitle: "Wonderland Tea Party",
+  date: "1 February 2022",
+  japaneseTitle: "不思議の国のアリスのティーパーティー",
+  summaryText:
+    "ディズニーの不思議の国のアリスの有名なワンシーンです。アリスが悩みについて話しているけど、マッドハッター達が紅茶を入れたいです。繰り返しがたくさんあり、単語の簡単な楽しいシナリオです。 アフタヌーンティーを馳走しながら読んでみましょう。",
+  tags: ["Intermediate", "Food", "Movies"],
 };
