@@ -8,14 +8,21 @@
 }
 
 .small {
+  height: 0.5rem;
+  width: 6rem;
+  margin: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.medium {
   height: 1rem;
-  width: 5rem;
+  width: 10rem;
   margin: 0.5rem;
   font-size: 1rem;
 }
 
 .big {
-  height: 2.5rem;
+  height: 1.5rem;
   width: 10rem;
   margin: 0.5rem;
   font-size: 1.5rem;

@@ -10,6 +10,7 @@ import SecondaryTitle from '../../components/SecondaryTitle'
 import FeaturedSummaryCard from '../../components/FeaturedSummaryCard'
 
 const topics = ['News', 'Culture', 'Film & TV', 'Kids', 'Business', 'Travel']
+const levels = ['Beginner', 'Intermediate', 'Advanced']
 
 export default function Home() {
   return (
@@ -24,6 +25,11 @@ export default function Home() {
           <div className={styles.topicsContainer}>
             {topics.map((topic) => (
               <Tag size={'big'} text={topic} />
+            ))}
+          </div>
+          <div className={styles.topicsContainer}>
+            {levels.map((level) => (
+              <Tag size={'medium'} text={level} />
             ))}
           </div>
           <ArticleSummaryCard />
