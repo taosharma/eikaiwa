@@ -8,15 +8,20 @@ export default function HomeBannerImage() {
   return (
     <>
       <div className={styles.heroImage}>
-        <div className={styles.heroTextContainer}>
-          <Title titleText="Learn Chibilish" textColor={"white"} />
-          <SecondaryTitle titleText="Over afternoon tea" textColor={"white"} />
-        </div>
-        <div className={styles.subtitleContainer}>
-          <Subtitle
-            titleText="毎日少しずつ英語を楽しもう"
-            textColor={"white"}
-          />
+        <div className={styles.titlesContainer}>
+          <div className={styles.heroTextContainer}>
+            <Title titleText="Learn Chibilish" textColor={"white"} />
+            <SecondaryTitle
+              titleText="Over afternoon tea"
+              textColor={"white"}
+            />
+          </div>
+          <div className={styles.subtitleContainer}>
+            <Subtitle
+              titleText="毎日少しずつ英語を楽しもう"
+              textColor={"white"}
+            />
+          </div>
         </div>
       </div>
     </>

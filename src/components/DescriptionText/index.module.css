@@ -1,6 +1,8 @@
 .descriptionContainer {
   margin: 0.2rem;
+  margin-top: var(--margin-space-small);
   padding: 0.2rem;
   overflow-wrap: break-word;
   border-style: solid;
+  font-size: 1rem;
 }

@@ -1,5 +1,6 @@
 .featuredSummaryCard {
   margin: 2rem;
+  margin-top: var(--margin-space-mid);
   padding: 0.7rem;
   border-style: groove;
   display: flex;
