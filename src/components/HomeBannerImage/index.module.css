@@ -1,44 +1,52 @@
 .heroImage {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
 
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.377)),
-    url("https://cdn.midjourney.com/ee4bb48a-5c55-488a-ac7e-dbc5c49ca047/grid_0.png");
-
+    url("https://cdn.midjourney.com/c8cc39e3-9300-483f-8611-dfee516e7ccb/grid_0.png");
+      
   height: 75vh;
+  width: 100vw;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  border: 3px solid blue;
 }
 
 .titlesContainer {
   width: 75vw;
-  height: 75vh;
-  border: 3px solid blue;
+  margin: 0.2rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .heroTextContainer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: 3px solid red;
   max-width: 50vw;
-  align-self: center;
 }
 
 .subtitleContainer {
+  position: absolute;
+  display: flex;
+  width: 75vw;
+  height: 70vh;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.sidebarContainer {
   display: flex;
   flex-direction: column;
-  width: 75vw;
-  border: 3px solid cyan;
-  align-self: flex-end;
+  width: 20vw;
+  margin: 0.2rem;
+  padding: 0.5rem;
 }

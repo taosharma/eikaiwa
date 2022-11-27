@@ -24,8 +24,8 @@ body {
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2")
+  font-family: "DroidSerif";
+  src: url("https://fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2")
     format("woff2");
   unicode-range: U+000-5FF; /* Latin glyphs */
 }

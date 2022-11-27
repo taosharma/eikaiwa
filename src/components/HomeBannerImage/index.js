@@ -1,7 +1,7 @@
-import styles from "./index.module.css";
-import Title from "../Title";
-import SecondaryTitle from "../SecondaryTitle";
-import Subtitle from "../Subtitle";
+import styles from './index.module.css'
+import Title from '../Title'
+import SecondaryTitle from '../SecondaryTitle'
+import Subtitle from '../Subtitle'
 // import { Link } from "react-router-dom";
 
 export default function HomeBannerImage() {
@@ -10,20 +10,21 @@ export default function HomeBannerImage() {
       <div className={styles.heroImage}>
         <div className={styles.titlesContainer}>
           <div className={styles.heroTextContainer}>
-            <Title titleText="Learn Chibilish" textColor={"white"} />
+            <Title titleText="Learn Chibilish" textColor={'white'} />
             <SecondaryTitle
               titleText="Over afternoon tea"
-              textColor={"white"}
+              textColor={'white'}
             />
           </div>
           <div className={styles.subtitleContainer}>
             <Subtitle
               titleText="毎日少しずつ英語を楽しもう"
-              textColor={"white"}
+              textColor={'white'}
             />
           </div>
         </div>
+        <div className={styles.sidebarContainer}></div>
       </div>
     </>
-  );
+  )
 }

@@ -1,6 +1,6 @@
 .subtitle {
-  font-size: 1.2em;
+  font-size: var(subheading-text-size);
   line-height: 1.8em;
-  margin: 0;
-  border: 3px solid yellow;
+  margin: 0.2rem;
+  padding: 0.5rem;
 }
