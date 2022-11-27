@@ -10,7 +10,7 @@ export default function HomeBannerImage() {
       <div className={styles.heroImage}>
         <div className={styles.titlesContainer}>
           <div className={styles.heroTextContainer}>
-            <Title titleText="Learn Chibilish" textColor={'white'} />
+            <Title titleText="Learn English" textColor={'white'} />
             <SecondaryTitle
               titleText="Over afternoon tea"
               textColor={'white'}

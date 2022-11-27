@@ -2,7 +2,10 @@
   width: 50vw;
   margin: 0.2rem;
   margin-top: var(--margin-space-small);
-  padding: 0.2rem;
+  padding: 0.4rem;
   overflow-wrap: break-word;
   font-size: 1rem;
+  color: var(--white);
+  background-color: var(--mid-colour);
+  border-radius: 20px;
 }

@@ -4,6 +4,8 @@
   width: 100vw;
   padding-top: var(--margin-space-mid);
   background-color: var(--white);
+  background-image: url("../../../public/tea-pattern-1.jpg");
+  background-repeat: repeat;
 }
 
 .contentContainer {
@@ -13,7 +15,6 @@
   width: 75vw;
   margin: 0.2rem;
   padding: 0.5rem;
-  border-style: solid;
 }
 
 .topicsContainer {
@@ -26,7 +27,6 @@
   margin: 0.2rem;
   margin-top: var(--margin-space-big);
   padding: 0.5rem;
-  border-style: solid;
 }
 
 .levelsContainer {
@@ -39,7 +39,6 @@
   margin: 0.2rem;
   margin-top: var(--margin-space-small);
   padding: 0.5rem;
-  border-style: solid;
 }
 
 .sidebarContainer {
@@ -48,5 +47,5 @@
   width: 20vw;
   margin: 0.2rem;
   padding: 0.5rem;
-  border-style: solid;
+  background-color: var(--white);
 }
