@@ -18,10 +18,14 @@ export default function Home() {
       {/* <HomeBannerImage />
       <main className={styles.mainContainer}>
         <section className={styles.contentContainer}>
-          <SecondaryTitle titleText="Welcome" textColor={"black"} />
-          <SecondaryTitle titleText={"日本語で英語を学ぼう"} />
-          <DescriptionText />
-
+          <div className={styles.welcomeTextContainer}>
+            <SecondaryTitle titleText="Welcome" textColor={'white'} />
+            <SecondaryTitle
+              titleText={'日本語で英語を学ぼう'}
+              textColor={'white'}
+            />
+            <DescriptionText textColor={'white'} />
+          </div>
           <div className={styles.topicsContainer}>
             {topics.map((topic) => (
               <Tag size={"big"} text={topic} />

@@ -1,8 +1,8 @@
 import styles from "./index.module.css";
 
-export default function DescriptionText({ textArray }) {
+export default function DescriptionText({ textArray, textColor }) {
   return (
-    <div className={styles.descriptionContainer}>
+    <div className={styles.descriptionContainer} style={{ color: textColor }}>
       {textArray.map((paragraph, index) => {
         return <p id={index}>{paragraph}</p>;
       })}

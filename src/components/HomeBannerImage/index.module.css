@@ -4,7 +4,7 @@
 
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.377)),
-    url("https://cdn.midjourney.com/50a7afd6-33ae-4f2b-8164-9d68d413753d/grid_0.png");
+    url("https://cdn.midjourney.com/25d7984e-4d2f-492c-8700-4fdb1f1661c3/grid_0.png");
       
   height: 75vh;
   width: 100vw;
@@ -18,7 +18,7 @@
 .titlesContainer {
   width: 75vw;
   margin: 0.2rem;
-  padding: 0.5rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,21 +26,23 @@
 }
 
 .heroTextContainer {
+  justify-content: left;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-width: 50vw;
-  background-color: var(--mid-colour);
+  width: 50vw;
+  background-color: var(--white);
+  padding: 1rem;
 }
 
 .subtitleContainer {
   position: absolute;
   display: flex;
-  width: 75vw;
+  width: 52.5vw;
   height: 70vh;
-  margin: 0.2rem;
-  padding: 0.5rem;
-  justify-content: center;
+  margin: 0rem;
+  justify-content: left;
   align-items: flex-end;
 }
 

@@ -2,9 +2,9 @@
   font-size: var(subheading-text-size);
   line-height: 1.8em;
   margin: 0.2rem;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .backgroundColour {
-  background-color: var(--mid-colour);
+  background-color: var(--white);
 }

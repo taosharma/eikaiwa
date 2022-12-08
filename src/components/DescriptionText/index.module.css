@@ -1,11 +1,10 @@
 .descriptionContainer {
-  width: 50vw;
+  width: 45vw;
   margin: 0.2rem;
   margin-top: var(--margin-space-small);
-  padding: 0.4rem;
+  padding: 1rem;
   overflow-wrap: break-word;
   font-size: 1rem;
-  color: var(--white);
-  background-color: var(--mid-colour);
   border-radius: 20px;
+  text-align: left;
 }
