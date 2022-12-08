@@ -15,16 +15,16 @@ const levels = ["Beginner", "Intermediate", "Advanced"];
 export default function Home() {
   return (
     <>
-      {/* <HomeBannerImage />
+      <HomeBannerImage />
       <main className={styles.mainContainer}>
         <section className={styles.contentContainer}>
           <div className={styles.welcomeTextContainer}>
-            <SecondaryTitle titleText="Welcome" textColor={'white'} />
+            <SecondaryTitle titleText="Welcome" textColor={"white"} />
             <SecondaryTitle
-              titleText={'日本語で英語を学ぼう'}
-              textColor={'white'}
+              titleText={"日本語で英語を学ぼう"}
+              textColor={"white"}
             />
-            <DescriptionText textColor={'white'} />
+            <DescriptionText textColor={"white"} />
           </div>
           <div className={styles.topicsContainer}>
             {topics.map((topic) => (
@@ -42,7 +42,7 @@ export default function Home() {
         <section className={styles.sidebarContainer}>
           <Sidebar />
         </section>
-      </main> */}
+      </main>
       <Article />
     </>
   );
