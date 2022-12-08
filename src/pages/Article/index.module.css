@@ -1,0 +1,56 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding-top: var(--margin-space-mid);
+  /* background-color: var(--white); */
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.779),
+      rgba(255, 255, 255, 0.775)
+    ),
+    url("../../../public/tea-pattern-1.jpg");
+
+  background-repeat: repeat;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75vw;
+  margin: 0.2rem;
+  padding: 0.5rem;
+}
+
+.topicsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  margin: 0.2rem;
+  margin-top: var(--margin-space-big);
+  padding: 0.5rem;
+}
+
+.levelsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  margin: 0.2rem;
+  margin-top: var(--margin-space-small);
+  padding: 0.5rem;
+}
+
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  background-color: var(--white);
+}
