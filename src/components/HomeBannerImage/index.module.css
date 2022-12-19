@@ -3,9 +3,9 @@
   justify-content: center;
 
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.377)),
-    url("https://cdn.midjourney.com/25d7984e-4d2f-492c-8700-4fdb1f1661c3/grid_0.png");
-      
+  background-image: linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.219)),
+    url("https://i.imgur.com/PGGo7rD.jpg");
+  /* https://cdn.midjourney.com/25d7984e-4d2f-492c-8700-4fdb1f1661c3/grid_0.png */
   height: 75vh;
   width: 100vw;
   /* Position and center the image to scale nicely on all screens */
@@ -32,7 +32,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   width: 50vw;
-  background-color: var(--white);
+  background-color: rgba(0, 0, 0, 0.333);
   padding: 1rem;
 }
 
