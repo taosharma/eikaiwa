@@ -29,13 +29,22 @@
   font-size: 1.5rem;
 }
 
-.red {
+.primary {
   background-color: var(--primary-colour);
   color: var(--white);
 }
 
-.red:hover {
+.primary:hover {
   background-color: var(--secondary-colour);
+}
+
+.secondary {
+  background-color: var(--secondary-colour);
+  color: var(--white);
+}
+
+.secondary:hover {
+  background-color: var(--primary-colour);
 }
 
 .tagText {

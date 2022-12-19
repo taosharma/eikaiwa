@@ -1,7 +1,5 @@
 .descriptionContainer {
-  width: 45vw;
-  margin: 0.2rem;
-  margin-top: var(--margin-space-small);
+  margin: 0rem;
   padding: 1rem;
   overflow-wrap: break-word;
   font-size: 1rem;

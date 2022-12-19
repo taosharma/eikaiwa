@@ -30,7 +30,7 @@ export default function ArticleSummaryCard({
 
 ArticleSummaryCard.defaultProps = {
   image:
-    'https://www.teasenz.it/media/catalog/product/cache/8a22e548d0d598b598d00db33d60f0d4/c/a/cat-teapot-16.jpg',
+    'https://i.pinimg.com/736x/ae/5a/44/ae5a44722fe1c7d670a298be25fc6d31--tea-sets-spaghetti-dinner.jpg',
   englishTitle: 'English Title',
   date: '1 January 2022',
   japaneseTitle: '日本語タイトル',

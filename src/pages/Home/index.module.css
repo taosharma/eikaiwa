@@ -13,16 +13,6 @@
   background-repeat: repeat;
 }
 
-.welcomeTextContainer {
-  width: 50vw;
-  margin: 0rem;
-  margin-top: var(--margin-space-small);
-  padding: 1rem;
-  text-align: left;
-  background-color: var(--mid-colour);
-  overflow-wrap: break-word;
-}
-
 .contentContainer {
   display: flex;
   flex-direction: column;
@@ -62,5 +52,4 @@
   width: 20vw;
   margin: 0.2rem;
   padding: 0.5rem;
-  background-color: var(--white);
 }

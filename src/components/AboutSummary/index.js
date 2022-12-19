@@ -1,12 +1,13 @@
 import ImageBox from '../ImageBox'
+import styles from './index.module.css'
 
 export default function AboutSummary({ caption, image, text }) {
   return (
-    <>
+    <div className={styles.aboutSummaryContainer}>
       <h3>{caption}</h3>
       <ImageBox image={image} />
       <p>{text}</p>
-    </>
+    </div>
   )
 }
 

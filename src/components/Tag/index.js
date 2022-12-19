@@ -11,6 +11,6 @@ export default function Tag({ size, colour, text }) {
 
 Tag.defaultProps = {
   size: 'small',
-  colour: 'red',
+  colour: 'primary',
   text: 'tag',
 }

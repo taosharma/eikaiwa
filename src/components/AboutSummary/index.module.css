@@ -1,0 +1,8 @@
+.aboutSummaryContainer {
+    margin: 0rem;
+    margin-top: var(--margin-space-small);
+    padding: 1rem;
+    text-align: left;
+    background-color: var(--white);
+    overflow-wrap: break-word;
+  }
