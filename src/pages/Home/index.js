@@ -3,12 +3,17 @@ import Sidebar from '../../components/Sidebar'
 import ArticleSummaryCard from '../../components/ArticleSummaryCard'
 import Tag from '../../components/Tag'
 import FeaturedSummaryCard from '../../components/FeaturedSummaryCard'
-import Article from '../Article'
 
 import styles from './index.module.css'
 
 const topics = ['News', 'Culture', 'Film & TV', 'Kids', 'Business', 'Travel']
 const levels = ['Beginner', 'Intermediate', 'Advanced']
+
+export async function loader() {
+  // const contacts = await getContacts();
+  // return { contacts };
+  return 1
+}
 
 export default function Home() {
   return (
@@ -35,7 +40,6 @@ export default function Home() {
           <Sidebar />
         </section>
       </main>
-      <Article />
     </>
   )
 }
