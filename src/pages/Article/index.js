@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
+
 import ArticleBannerImage from '../../components/ArticleBannerImage'
 import DescriptionText from '../../components/DescriptionText'
 import Sidebar from '../../components/Sidebar'
-import styles from './index.module.css'
-import { useParams } from 'react-router-dom'
 
-// const topics = ["News", "Culture", "Film & TV", "Kids", "Business", "Travel"];
-// const levels = ["Beginner", "Intermediate", "Advanced"];
+import styles from './index.module.css'
 
 export default function Article({ currentArticle, handleCurrentArticle }) {
   const [article, setArticle] = useState(currentArticle)

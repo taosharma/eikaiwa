@@ -14,7 +14,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <Home />,
+      element: <Home articles={articles} />,
     },
     {
       path: '/article/:pageId',

@@ -9,13 +9,7 @@ import styles from './index.module.css'
 const topics = ['News', 'Culture', 'Film & TV', 'Kids', 'Business', 'Travel']
 const levels = ['Beginner', 'Intermediate', 'Advanced']
 
-export async function loader() {
-  // const contacts = await getContacts();
-  // return { contacts };
-  return 1
-}
-
-export default function Home() {
+export default function Home({ articles }) {
   return (
     <>
       <HomeBannerImage />
@@ -32,8 +26,8 @@ export default function Home() {
             ))}
           </div>
           <FeaturedSummaryCard />
-          {[1, 2, 3].map((article) => (
-            <ArticleSummaryCard />
+          {articles.map((article) => (
+            <ArticleSummaryCard {...article} />
           ))}
         </section>
         <section className={styles.sidebarContainer}>
