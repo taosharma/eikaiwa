@@ -3,21 +3,20 @@ import Tag from '../Tag'
 import styles from './index.module.css'
 
 export default function ArticleSummaryCard({
-  image,
-  englishTitle,
+  thumbnailImage,
+  titles,
   date,
-  japaneseTitle,
-  summaryText,
+  description,
   tags,
 }) {
   return (
     <article className={styles.articleSummaryCard}>
-      <ImageBox url={image} />
+      <ImageBox url={thumbnailImage.link} alt={thumbnailImage.alt} />
       <section className={styles.summaryContainer}>
-        <h3 className={styles.englishTitle}>{englishTitle}</h3>
+        <h3 className={styles.englishTitle}>{titles.english}</h3>
         <h4 className={styles.date}>{date}</h4>
-        <h4 className={styles.japaneseTitle}>{japaneseTitle}</h4>
-        <p className={styles.summaryText}>{summaryText}</p>
+        <h4 className={styles.japaneseTitle}>{titles.japanese}</h4>
+        <p className={styles.summaryText}>{description}</p>
         <div className={styles.tagContainer}>
           {tags.map((tag) => (
             <Tag text={tag} />

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "0",
+    "titles": {
+      "english": "Alice In Wonderland",
+      "japanese": "不思議の国のアリス"
+    },
+    "date": "2023 年 1 月 12 日",
+    "coverImage": {
+      "link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdni.fancaps.net%2Ffile%2Ffancaps-movieimages%2F95664.jpg&f=1&nofb=1&ipt=0c65a938750b024af4623f77dc857f7a07e77c69363fe5153c19def38ff764d0&ipo=images",
+      "alt": "Alice in Wonderland"
+    },
+    "thumbnailImage": {
+      "link": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdni.fancaps.net%2Ffile%2Ffancaps-movieimages%2F95664.jpg&f=1&nofb=1&ipt=0c65a938750b024af4623f77dc857f7a07e77c69363fe5153c19def38ff764d0&ipo=images",
+      "alt": "Alice in Wonderland"
+    },
+    "description": "ディズニーの不思議の国のアリスの有名なワンシーンです。アリスが悩みについて話しているけど、マッドハッター達が紅茶を入れたいです。繰り返しがたくさんあり、単語の簡単な楽しいシナリオです。アフタヌーンティーを馳走しながら読んでみましょう",
+    "article": "Mad Hatter: And now, my dear, something seems to be troubling you. Uh, won't you tell us all about it?",
+    "tags": ["Books", "Films", "Dialogue"],
+    "level": "Beginner",
+    "categories": [{ "category": "Culture", "isFeatured": true }],
+    "audioLink": "",
+    "vocab": {
+      "english": ["Alice", "wonderland"],
+      "japanese": ["アリス", "不思議の国"]
+    },
+    "comments": [{}]
+  },
+  {
+    "id": "1",
+    "titles": {
+      "english": "Loudermilk",
+      "japanese": "ラウダーミルク"
+    },
+    "date": "2023 年 1 月 14 日",
+    "coverImage": {
+      "link": "https://tvscorecards.com/wp-content/uploads/2017/11/loudermilk-wpcf_720x400.jpg",
+      "alt": "Loudermilk"
+    },
+    "thumbnailImage": {
+      "link": "https://tvscorecards.com/wp-content/uploads/2017/11/loudermilk-wpcf_720x400.jpg",
+      "alt": "Loudermilk"
+    },
+    "description": "「ラウダーミルクの人生やり直し手伝います」というテレビドラマのワンシーンです。この場面では男の人「ラウダーミルク」と女の人「リッシ―」がカフェで飲み物を買っています。ラウダーミルクはリッシ―にYerba-Matéという珍しいお茶を飲ませがっていて、持っていたティーバッグをカフェに持ってきました。しかし、店員さんは頑としてお湯だけを出しません。それでも、ラウダーミルクは諦めません。面白い会話になります。誰が正しいと思いますか？",
+    "article": "Loudermilk: You ever tried Yerba-Maté?",
+    "tags": ["TV", "Funny", "Tea"],
+    "level": "",
+    "categories": [{ "category": "Film & TV", "isFeatured": true }],
+    "audioLink": "",
+    "vocab": {
+      "english": ["milk", "woman"],
+      "japanese": ["ミルク", "女の人"]
+    },
+    "comments": [{}]
+  }
+]

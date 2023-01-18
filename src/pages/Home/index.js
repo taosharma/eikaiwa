@@ -3,14 +3,13 @@ import Sidebar from '../../components/Sidebar'
 import ArticleSummaryCard from '../../components/ArticleSummaryCard'
 import Tag from '../../components/Tag'
 import FeaturedSummaryCard from '../../components/FeaturedSummaryCard'
-import Article from '../Article'
 
 import styles from './index.module.css'
 
 const topics = ['News', 'Culture', 'Film & TV', 'Kids', 'Business', 'Travel']
 const levels = ['Beginner', 'Intermediate', 'Advanced']
 
-export default function Home() {
+export default function Home({ articles }) {
   return (
     <>
       <HomeBannerImage />
@@ -27,15 +26,14 @@ export default function Home() {
             ))}
           </div>
           <FeaturedSummaryCard />
-          {[1, 2, 3].map((article) => (
-            <ArticleSummaryCard />
+          {articles.map((article) => (
+            <ArticleSummaryCard {...article} />
           ))}
         </section>
         <section className={styles.sidebarContainer}>
           <Sidebar />
         </section>
       </main>
-      <Article />
     </>
   )
 }
