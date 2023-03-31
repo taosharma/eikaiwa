@@ -2,7 +2,7 @@ import Home from './pages/Home'
 import Article from './pages/Article'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './App.css'
 
 import exampleArticles from '../src/data/dummyArticles.json'
@@ -10,6 +10,30 @@ import exampleArticles from '../src/data/dummyArticles.json'
 function App() {
   const [articles, setArticles] = useState(exampleArticles)
   const [currentArticle, setCurrentArticle] = useState(exampleArticles[0])
+
+  async function getArticles() {
+    const response = await fetch(
+      'https://0ge6k9t4vf.execute-api.eu-west-1.amazonaws.com/dev/'
+    )
+    const articles = await response.json()
+    setArticles(articles)
+    setCurrentArticle(articles[0])
+  }
+
+  useEffect(() => {
+    getArticles()
+  }, [])
+
+  function handleCurrentArticle(pageId) {
+    const article = articles.find(({ id }) => id === pageId)
+    if (article) {
+      setCurrentArticle(article)
+      window.scroll({
+        top: 0,
+        left: 0,
+      })
+    }
+  }
 
   const router = createBrowserRouter([
     {
@@ -26,17 +50,6 @@ function App() {
       ),
     },
   ])
-
-  function handleCurrentArticle(pageId) {
-    const article = articles.find(({ id }) => id === pageId)
-    if (article) {
-      setCurrentArticle(article)
-      window.scroll({
-        top: 0,
-        left: 0,
-      })
-    }
-  }
 
   return (
     <div className="App">
