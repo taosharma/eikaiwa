@@ -1,18 +1,27 @@
 import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-
+import ReactMarkdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw'
 import ArticleBannerImage from '../../components/ArticleBannerImage'
 import DescriptionText from '../../components/DescriptionText'
 import Sidebar from '../../components/Sidebar'
+import markdownFile from '../../markdown.md'
 
 import styles from './index.module.css'
 
 export default function Article({ currentArticle, handleCurrentArticle }) {
   const [article, setArticle] = useState(currentArticle)
+  const [markdown, setMarkdown] = useState('')
 
   const { id, titles, description, coverImage } = article
 
   const { pageId } = useParams()
+
+  useEffect(() => {
+    fetch('https://eikaiwa.s3.eu-west-1.amazonaws.com/README.md')
+      .then((res) => res.text())
+      .then((text) => setMarkdown(text))
+  }, [])
 
   useEffect(() => {
     if (id !== pageId) {
@@ -31,6 +40,7 @@ export default function Article({ currentArticle, handleCurrentArticle }) {
       />
       <main className={styles.mainContainer}>
         <section className={styles.contentContainer}>
+          <ReactMarkdown children={markdown} rehypePlugins={[rehypeRaw]} />
           <DescriptionText textArray={description} />
         </section>
         <section className={styles.sidebarContainer}>

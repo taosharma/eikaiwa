@@ -1,6 +1,7 @@
 [
   {
     "id": "0",
+    "string_id": "alice-in-wonderland",
     "titles": {
       "english": "Alice In Wonderland",
       "japanese": "不思議の国のアリス"
@@ -20,14 +21,22 @@
     "level": "Beginner",
     "categories": [{ "category": "Culture", "isFeatured": true }],
     "audioLink": "",
-    "vocab": {
-      "english": ["Alice", "wonderland"],
-      "japanese": ["アリス", "不思議の国"]
-    },
+
+    "vocab": [
+      {
+        "english": "Alice",
+        "japanese": "アリス"
+      },
+      {
+        "english": "wonderland",
+        "japanese": "不思議の国"
+      }
+    ],
     "comments": [{}]
   },
   {
     "id": "1",
+    "string_id": "loudermilk",
     "titles": {
       "english": "Loudermilk",
       "japanese": "ラウダーミルク"
@@ -47,10 +56,16 @@
     "level": "",
     "categories": [{ "category": "Film & TV", "isFeatured": true }],
     "audioLink": "",
-    "vocab": {
-      "english": ["milk", "woman"],
-      "japanese": ["ミルク", "女の人"]
-    },
+    "vocab": [
+      {
+        "english": "milk",
+        "japanese": "ミルク"
+      },
+      {
+        "english": "woman",
+        "japanese": "女の人"
+      }
+    ],
     "comments": [{}]
   }
 ]

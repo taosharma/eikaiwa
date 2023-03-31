@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "string_id": "",
   "titles": {
     "english": "",
     "japanese": ""
@@ -19,9 +19,11 @@
   "level": "",
   "categories": [{ "category": "", "isFeatured": true }],
   "audioLink": "",
-  "vocab": {
-    "english": [""],
-    "japanese": [""]
-  },
+  "vocab": [
+    {
+      "english": "",
+      "japanese": ""
+    }
+  ],
   "comments": [{}]
 }
