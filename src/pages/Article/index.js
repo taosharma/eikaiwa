@@ -1,43 +1,42 @@
-import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-import ArticleBannerImage from "../../components/ArticleBannerImage";
-import DescriptionText from "../../components/DescriptionText";
-import Sidebar from "../../components/Sidebar";
-import markdownFile from "../../markdown.md";
+import React, { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
+import ReactMarkdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw'
+import ArticleBannerImage from '../../components/ArticleBannerImage'
+import DescriptionText from '../../components/DescriptionText'
+import Sidebar from '../../components/Sidebar'
+import markdownFile from '../../markdown.md'
 
-import styles from "./index.module.css";
+import styles from './index.module.css'
 
 export default function Article({ currentArticle, handleCurrentArticle }) {
-  const [article, setArticle] = useState(currentArticle);
-  const [markdown, setMarkdown] = useState("");
+  const [article, setArticle] = useState(currentArticle)
+  const [markdown, setMarkdown] = useState('')
 
-  const { id, titles, description, coverImage } = article;
+  const { id, titles, description, coverImage } = article
 
-  const { pageId } = useParams();
+  const { pageId } = useParams()
 
   useEffect(() => {
-    fetch(markdownFile)
+    fetch('https://eikaiwa.s3.eu-west-1.amazonaws.com/README.md')
       .then((res) => res.text())
-      .then((text) => setMarkdown(text));
-  }, []);
+      .then((text) => setMarkdown(text))
+  }, [])
 
-  console.log(markdown);
   useEffect(() => {
     if (id !== pageId) {
-      handleCurrentArticle(pageId);
-      setArticle(currentArticle);
+      handleCurrentArticle(pageId)
+      setArticle(currentArticle)
     }
-  }, [article, currentArticle, handleCurrentArticle, id, pageId]);
+  }, [article, currentArticle, handleCurrentArticle, id, pageId])
 
   return (
     <>
       <ArticleBannerImage
         titleText={titles.english}
-        titleTextColour={"white"}
+        titleTextColour={'white'}
         secondaryTitleText={titles.japanese}
-        secondaryTitleTextColour={"white"}
+        secondaryTitleTextColour={'white'}
       />
       <main className={styles.mainContainer}>
         <section className={styles.contentContainer}>
@@ -49,7 +48,7 @@ export default function Article({ currentArticle, handleCurrentArticle }) {
         </section>
       </main>
     </>
-  );
+  )
 }
 
 // Article.defaultProps = {
