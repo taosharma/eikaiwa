@@ -1,23 +1,25 @@
-import Home from './pages/Home'
-import Article from './pages/Article'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Home from "./pages/Home";
+import Article from "./pages/Article";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import React, { useState } from 'react'
-import './App.css'
+import React, { useState } from "react";
+import "./App.css";
 
-import exampleArticles from '../src/data/dummyArticles.json'
+import exampleArticles from "../src/data/dummyArticles.json";
+// fetch all from dynamo
+// set state to be list of articles
 
 function App() {
-  const [articles, setArticles] = useState(exampleArticles)
-  const [currentArticle, setCurrentArticle] = useState(exampleArticles[0])
+  const [articles, setArticles] = useState(exampleArticles);
+  const [currentArticle, setCurrentArticle] = useState(exampleArticles[0]);
 
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: "/",
       element: <Home articles={articles} />,
     },
     {
-      path: '/article/:pageId',
+      path: "/article/:pageId",
       element: (
         <Article
           currentArticle={currentArticle}
@@ -25,16 +27,16 @@ function App() {
         />
       ),
     },
-  ])
+  ]);
 
   function handleCurrentArticle(pageId) {
-    const article = articles.find(({ id }) => id === pageId)
+    const article = articles.find(({ id }) => id === pageId);
     if (article) {
-      setCurrentArticle(article)
+      setCurrentArticle(article);
       window.scroll({
         top: 0,
         left: 0,
-      })
+      });
     }
   }
 
@@ -42,7 +44,7 @@ function App() {
     <div className="App">
       <RouterProvider router={router} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
