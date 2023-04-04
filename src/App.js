@@ -8,8 +8,8 @@ import './App.css'
 import exampleArticles from '../src/data/dummyArticles.json'
 
 function App() {
-  const [articles, setArticles] = useState(exampleArticles)
-  const [currentArticle, setCurrentArticle] = useState(exampleArticles[0])
+  const [articles, setArticles] = useState([])
+  const [currentArticle, setCurrentArticle] = useState({})
 
   async function getArticles() {
     const response = await fetch(
@@ -26,6 +26,7 @@ function App() {
 
   function handleCurrentArticle(pageId) {
     const article = articles.find(({ id }) => id === pageId)
+    // If there isn't an article we should show a 404 page!
     if (article) {
       setCurrentArticle(article)
       window.scroll({

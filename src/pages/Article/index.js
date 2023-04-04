@@ -13,14 +13,18 @@ export default function Article({ currentArticle, handleCurrentArticle }) {
   const [article, setArticle] = useState(currentArticle)
   const [markdown, setMarkdown] = useState('')
 
-  const { id, titles, description, coverImage } = article
+  const { id, slug, articleLink, titles, description, coverImage } = article
 
   const { pageId } = useParams()
 
+  async function getMarkdown() {
+    const response = await fetch(articleLink)
+    const text = await response.text()
+    setMarkdown(text)
+  }
+
   useEffect(() => {
-    fetch('https://eikaiwa.s3.eu-west-1.amazonaws.com/README.md')
-      .then((res) => res.text())
-      .then((text) => setMarkdown(text))
+    getMarkdown()
   }, [])
 
   useEffect(() => {

@@ -1,5 +1,5 @@
 {
-  "string_id": "",
+  "slug": "",
   "titles": {
     "english": "",
     "japanese": ""
@@ -14,7 +14,7 @@
     "alt": ""
   },
   "description": "",
-  "article": "",
+  "articleLink": "",
   "tags": [""],
   "level": "",
   "categories": [{ "category": "", "isFeatured": true }],

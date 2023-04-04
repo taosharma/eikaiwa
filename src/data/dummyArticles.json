@@ -1,7 +1,7 @@
 [
   {
     "id": "0",
-    "string_id": "alice-in-wonderland",
+    "slug": "alice-in-wonderland",
     "titles": {
       "english": "Alice In Wonderland",
       "japanese": "不思議の国のアリス"
@@ -16,7 +16,7 @@
       "alt": "Alice in Wonderland"
     },
     "description": "ディズニーの不思議の国のアリスの有名なワンシーンです。アリスが悩みについて話しているけど、マッドハッター達が紅茶を入れたいです。繰り返しがたくさんあり、単語の簡単な楽しいシナリオです。アフタヌーンティーを馳走しながら読んでみましょう",
-    "article": "Mad Hatter: And now, my dear, something seems to be troubling you. Uh, won't you tell us all about it?",
+    "articleLink": "https://eikaiwa.s3.eu-west-1.amazonaws.com/alice-in-wonderland.md",
     "tags": ["Books", "Films", "Dialogue"],
     "level": "Beginner",
     "categories": [{ "category": "Culture", "isFeatured": true }],
@@ -36,7 +36,7 @@
   },
   {
     "id": "1",
-    "string_id": "loudermilk",
+    "slug": "loudermilk",
     "titles": {
       "english": "Loudermilk",
       "japanese": "ラウダーミルク"
@@ -51,7 +51,7 @@
       "alt": "Loudermilk"
     },
     "description": "「ラウダーミルクの人生やり直し手伝います」というテレビドラマのワンシーンです。この場面では男の人「ラウダーミルク」と女の人「リッシ―」がカフェで飲み物を買っています。ラウダーミルクはリッシ―にYerba-Matéという珍しいお茶を飲ませがっていて、持っていたティーバッグをカフェに持ってきました。しかし、店員さんは頑としてお湯だけを出しません。それでも、ラウダーミルクは諦めません。面白い会話になります。誰が正しいと思いますか？",
-    "article": "Loudermilk: You ever tried Yerba-Maté?",
+    "articleLink": "Loudermilk: You ever tried Yerba-Maté?",
     "tags": ["TV", "Funny", "Tea"],
     "level": "",
     "categories": [{ "category": "Film & TV", "isFeatured": true }],
