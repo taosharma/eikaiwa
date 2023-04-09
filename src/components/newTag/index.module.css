@@ -1,0 +1,22 @@
+.primary {
+  background-color: var(--primary-colour);
+  color: var(--white);
+}
+
+.primary:hover {
+  background-color: var(--secondary-colour);
+}
+
+.secondary {
+  background-color: var(--secondary-colour);
+  color: var(--white);
+}
+
+.secondary:hover {
+  background-color: var(--primary-colour);
+}
+
+.tag {
+  padding: "17px";
+  cursor: "pointer";
+}
