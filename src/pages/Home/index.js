@@ -25,10 +25,9 @@ export default function Home({ articles }) {
               <Tag size={'medium'} text={level} colour="secondary" />
             ))}
           </div>
-          <FeaturedSummaryCard />
-          {articles.map((article) => (
-            <ArticleSummaryCard {...article} />
-          ))}
+          {articles && <FeaturedSummaryCard {...articles[0]} />}
+          {articles &&
+            articles.map((article) => <ArticleSummaryCard {...article} />)}
         </section>
         <section className={styles.sidebarContainer}>
           <Sidebar />
